@@ -3,8 +3,8 @@
 console.log("superhero page");
 
 let ts = "1681802982683";
-let publicKey = "4ae6b7e55f9dccbbbba5d46081daf84a";
-let privatekey = "ccf52f5a8839cafeb0a8f699965cc248a272b864"
+let publicKey = "";
+let privatekey = ""
 
 
 let hashVal = CryptoJS.MD5(ts + privatekey + publicKey).toString();
